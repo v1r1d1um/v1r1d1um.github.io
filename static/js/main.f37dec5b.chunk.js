@@ -1,0 +1,2 @@
+(this["webpackJsonpart-basel-miami-2022"]=this["webpackJsonpart-basel-miami-2022"]||[]).push([[0],[function(a,i,s){a.exports=s(1)},function(a,i){}],[[0,1]]]);
+//# sourceMappingURL=main.f37dec5b.chunk.js.map

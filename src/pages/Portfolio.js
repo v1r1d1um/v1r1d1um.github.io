@@ -465,7 +465,7 @@ const Portfolio = () => {
                 {currentStep === -1 ? (
                   <div className="generator-typewriter-2">
                     <Typewriter
-                      id="typewriter--1"
+                      id="typewriter-0"
                       options={{
                         loop: false,
                       }}
@@ -504,7 +504,7 @@ const Portfolio = () => {
                 ) : currentStep === 0 ? (
                   <div className="generator-typewriter-2">
                     <Typewriter
-                      id="typewriter-0"
+                      id="typewriter-1"
                       options={{
                         loop: false,
                       }}
@@ -531,7 +531,7 @@ const Portfolio = () => {
                   <>
                     <div className="generator-typewriter-2">
                       <Typewriter
-                        id="typewriter-1"
+                        id="typewriter-2"
                         options={{
                           loop: false,
                         }}
@@ -560,7 +560,7 @@ const Portfolio = () => {
                     <span></span>
                     <div className="generator-typewriter-2">
                       <Typewriter
-                        id="typewriter-2"
+                        id="typewriter-3"
                         options={{
                           loop: false,
                         }}
@@ -593,7 +593,7 @@ const Portfolio = () => {
                       <>
                         <div className="generator-typewriter-2">
                           <Typewriter
-                            id="typewriter-2"
+                            id="typewriter-4"
                             options={{
                               loop: false,
                             }}
@@ -714,7 +714,7 @@ const Portfolio = () => {
                       }}
                     >
                       <Typewriter
-                        id="typewriter-3"
+                        id="typewriter-5"
                         options={{
                           loop: false,
                         }}
@@ -746,7 +746,7 @@ const Portfolio = () => {
                         <Lottie animationData={organicLoader} />
                       </OrganicWrapper>
                     </div>
-                    <div id="typewriter-4">
+                    <div id="typewriter-6">
                       <Typewriter
                         options={{
                           loop: false,

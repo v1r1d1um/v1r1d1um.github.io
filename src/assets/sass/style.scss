@@ -1,0 +1,1171 @@
+/*=================================================
+// Style
+// 
+// @package loversy
+// @author Adveits <support@adveits.com>
+// @version 1.2.0
+=================================================*/
+
+//=================================================
+// Theme variables
+//=================================================
+// Variables
+@import "variables";
+
+// Bootstrap style rewrite
+@import "bootstrap-style-rewrite";
+
+//=================================================
+// Theme mixins
+//=================================================
+// Mixins
+@import "mixins";
+
+/*=================================================
+// Table of contents
+//
+// #1 Icons import ( FontAwesome )
+//
+// #2 Bootstrap settings
+// #2.1 Style Reboot
+// #2.2 Images
+// #2.3 Code
+// #2.4 Grid
+// #2.5 Forms
+// #2.6 Buttons
+// #2.7 Transitions
+// #2.8 Dropdown
+// #2.9 Button group
+// #2.10 Input group
+// #2.11 Custom forms
+// #2.12 Card
+// #2.13 Alert
+// #2.14 List group
+// #2.15 Close
+// #2.16 Modal
+// #2.17 Utilities
+// #2.18 Pagination
+// #2.19 Type
+// #2.20 Nav
+// #2.21 Tables
+// #2.22 Badge
+// #2.23 Media
+// #2.24 Breadcrumb
+//
+// #3 Theme default style
+// #3.1 Font
+//
+// #4 Theme content
+// #4.1 Typography
+// #4.2 Image
+// #4.3 Icon
+// #4.4 Tables
+//
+// #5 Theme utilities
+// #5.1 Background
+// #5.2 Spacing
+// #5.3 Sizing
+// #5.4 Iframe
+// #5.5 Colors
+//
+// #6 Theme layout
+// #6.1 Grid
+//
+// #7 Theme components
+// #7.1 Link
+// #7.2 Button
+// #7.3 Modal
+// #7.4 Forms
+// #7.5 Nav
+// #7.6 Card
+// #7.7 Sticky
+// #7.8 Transition
+// #7.9 Transform
+// #7.10 Pagination
+// #7.11 Alert
+// #7.12 Effects
+// #7.13 Carousel
+// #7.14 Collapse
+// #7.15 Dropdown
+// #7.16 List group
+// #7.17 Scrollbar
+// #7.18 Slider
+// #7.19 Breadcrumb
+//
+// #8 Theme blocks
+// #8.1 Block
+// #8.2 Logo
+// #8.3 Header
+// #8.4 Footer
+// #8.5 Main
+// #8.6 Page title
+// #8.7 Page content
+// #8.8 Blog
+// #8.9 Widget
+// #8.10 Comments
+// #8.11 Loading
+// #8.12 Browser
+// #8.13 About
+// #8.14 Single
+// #8.15 Contacts
+// #8.16 404
+// #8.17 Examples
+// #8.18 FAQ
+// #8.19 Clients
+// #8.20 Services
+// #8.21 Portfolio
+// #8.22 Masonry gallery
+//
+// #9 Animate
+//
+// #10 Slider
+=================================================*/
+
+/*=================================================
+// #1 Icons import ( FontAwesome )
+=================================================*/
+@import "fontawesome/fontawesome";
+@import "fontawesome/regular";
+@import "fontawesome/brands";
+@import "fontawesome/solid";
+
+/*=================================================
+// #2 Bootstrap settings
+=================================================*/
+/*=============================
+// #2.1 Style reboot
+=============================*/
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/reboot";
+
+/*=============================
+// #2.2 Images
+=============================*/
+@import "../../../node_modules/bootstrap/scss/images";
+
+/*=============================
+// #2.3 Code
+=============================*/
+@import "../../../node_modules/bootstrap/scss/code";
+
+/*=============================
+// #2.4 Grid
+=============================*/
+@import "../../../node_modules/bootstrap/scss/grid";
+
+/*=============================
+// #2.5 Forms
+=============================*/
+@import "../../../node_modules/bootstrap/scss/forms";
+
+/*=============================
+// #2.6 Buttons
+=============================*/
+@import "../../../node_modules/bootstrap/scss/buttons";
+
+/*=============================
+// #2.7 Transitions
+=============================*/
+@import "../../../node_modules/bootstrap/scss/transitions";
+
+/*=============================
+// #2.8 Dropdown
+=============================*/
+@import "../../../node_modules/bootstrap/scss/dropdown";
+
+/*=============================
+// #2.9 Button group
+=============================*/
+@import "../../../node_modules/bootstrap/scss/button-group";
+
+/*=============================
+// #2.10 Input group
+=============================*/
+@import "../../../node_modules/bootstrap/scss/input-group";
+
+/*=============================
+// #2.11 Custom forms
+=============================*/
+@import "../../../node_modules/bootstrap/scss/custom-forms";
+
+/*=============================
+// #2.12 Card
+=============================*/
+@import "../../../node_modules/bootstrap/scss/card";
+
+/*=============================
+// #2.13 Alert
+=============================*/
+@import "../../../node_modules/bootstrap/scss/alert";
+
+/*=============================
+// #2.14 List group
+=============================*/
+@import "../../../node_modules/bootstrap/scss/list-group";
+
+/*=============================
+// #2.15 Close
+=============================*/
+@import "../../../node_modules/bootstrap/scss/close";
+
+/*=============================
+// #2.16 Modal
+=============================*/
+@import "../../../node_modules/bootstrap/scss/modal";
+
+/*=============================
+// #2.17 Utilities
+=============================*/
+@import "../../../node_modules/bootstrap/scss/utilities";
+
+/*=============================
+// #2.18 Pagination
+=============================*/
+@import "../../../node_modules/bootstrap/scss/pagination";
+
+/*=============================
+// #2.19 Type
+=============================*/
+@import "../../../node_modules/bootstrap/scss/type";
+
+/*=============================
+// #2.20 Nav
+=============================*/
+@import "../../../node_modules/bootstrap/scss/nav";
+
+/*=============================
+// #2.21 Tables
+=============================*/
+@import "../../../node_modules/bootstrap/scss/tables";
+
+/*=============================
+// #2.22 Badge
+=============================*/
+@import "../../../node_modules/bootstrap/scss/badge";
+
+/*=============================
+// #2.23 Media
+=============================*/
+@import "../../../node_modules/bootstrap/scss/media";
+
+/*=============================
+// #2.24 Breadcrumb
+=============================*/
+@import "../../../node_modules/bootstrap/scss/breadcrumb";
+
+/*=================================================
+// #3 Theme default style
+=================================================*/
+html {
+  -webkit-overflow-scrolling: touch;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 19px;
+  scroll-behavior: smooth;
+
+  @media #{$media_xxl} {
+    font-size: 17.5px;
+  }
+
+  @media #{$media_xl} {
+    font-size: 16px;
+  }
+
+  @media #{$media_sm} {
+    font-size: 14px;
+  }
+}
+
+body {
+  background-color: $body_background_color;
+  font-size: 19px;
+  min-width: 320px;
+
+  @media #{$media_xxl} {
+    font-size: 17.5px;
+  }
+
+  @media #{$media_xl} {
+    font-size: 16px;
+  }
+
+  @media #{$media_sm} {
+    font-size: 14px;
+  }
+}
+
+::selection {
+  background: $body_main_element_primary_color;
+  color: $white;
+}
+
+.wrapper,
+[class*="-section"][class*="section-boxed"] > [class*="-container"] {
+  max-width: $wrapper_max_w;
+  margin: auto;
+  padding-left: $wrapper_p_l;
+  padding-right: $wrapper_p_r;
+
+  @media #{$media_xxl} {
+    padding-left: $wrapper_p_l_xxl;
+    padding-right: $wrapper_p_r_xxl;
+  }
+
+  @media #{$media_xl} {
+    padding-left: $wrapper_p_l_xl;
+    padding-right: $wrapper_p_r_xl;
+  }
+
+  @media #{$media_sm} {
+    padding-left: $wrapper_p_l_sm;
+    padding-right: $wrapper_p_r_sm;
+  }
+}
+
+/*=============================
+// #3.1 Font
+=============================*/
+@import "font";
+
+/*=================================================
+// #4 Theme content
+=================================================*/
+/*=============================
+// #4.1 Typography
+=============================*/
+@import "content/typography";
+
+/*=============================
+// #4.2 Image
+=============================*/
+@import "content/image";
+
+/*=============================
+// #4.3 Icon
+=============================*/
+@import "content/icon";
+
+/*=============================
+// #4.4 Tables
+=============================*/
+@import "content/tables";
+
+/*=================================================
+// #5 Theme utilities
+=================================================*/
+/*=============================
+// #5.1 Background
+=============================*/
+@import "utilities/background";
+
+/*=============================
+// #5.2 Spacing
+=============================*/
+@import "utilities/spacing";
+
+/*=============================
+// #5.3 Sizing
+=============================*/
+@import "utilities/sizing";
+
+/*=============================
+// #5.4 Iframe
+=============================*/
+@import "utilities/iframe";
+
+/*=============================
+// #5.5 Colors
+=============================*/
+@import "utilities/colors";
+
+/*=================================================
+// #6 Theme layout
+=================================================*/
+/*=============================
+// #6.1 Grid
+=============================*/
+@import "layout/grid";
+
+/*=================================================
+// #7 Theme components
+=================================================*/
+/*=============================
+// #7.1 Link
+=============================*/
+@import "components/link";
+
+/*=============================
+// #7.2 Button
+=============================*/
+@import "components/button";
+
+/*=============================
+// #7.3 Modal
+=============================*/
+@import "components/modal";
+
+/*=============================
+// #7.4 Forms
+=============================*/
+@import "components/forms";
+
+/*=============================
+// #7.5 Nav
+=============================*/
+@import "components/nav";
+
+/*=============================
+// #7.6 Card
+=============================*/
+@import "components/card";
+
+/*=============================
+// #7.7 Sticky
+=============================*/
+@import "components/sticky";
+
+/*=============================
+// #7.8 Transition
+=============================*/
+@import "components/transition";
+
+/*=============================
+// #7.9 Transform
+=============================*/
+@import "components/transform";
+
+/*=============================
+// #7.10 Pagination
+=============================*/
+@import "components/pagination";
+
+/*=============================
+// #7.11 Alert
+=============================*/
+@import "components/alert";
+
+/*=============================
+// #7.12 Effects
+=============================*/
+@import "components/effects";
+
+/*=============================
+// #7.14 Collapse
+=============================*/
+@import "components/collapse";
+
+/*=============================
+// #7.15 Dropdown
+=============================*/
+@import "components/dropdown";
+
+/*=============================
+// #7.16 List group
+=============================*/
+@import "components/list-group";
+
+/*=============================
+// #7.17 Scrollbar
+=============================*/
+@import "components/scrollbar";
+
+/*=============================
+// #7.18 Slider
+=============================*/
+@import "components/slider";
+
+/*=============================
+// #7.19 Breadcrumb
+=============================*/
+@import "components/breadcrumb";
+
+/*=================================================
+// #8 Theme blocks
+=================================================*/
+/*=============================
+// #8.1 Block
+=============================*/
+@import "blocks/block";
+
+/*=============================
+// #8.2 Logo
+=============================*/
+@import "blocks/logo";
+
+/*=============================
+// #8.3 Header
+=============================*/
+@import "blocks/header";
+
+/*=============================
+// #8.4 Footer
+=============================*/
+@import "blocks/footer";
+
+/*=============================
+// #8.5 Main
+=============================*/
+@import "blocks/main";
+
+/*=============================
+// #8.6 Page title
+=============================*/
+@import "blocks/page-title";
+
+/*=============================
+// #8.7 Page content
+=============================*/
+@import "blocks/page-content";
+
+/*=============================
+// #8.8 Blog
+=============================*/
+@import "blocks/blog";
+
+/*=============================
+// #8.9 Widget
+=============================*/
+@import "blocks/widget";
+
+/*=============================
+// #8.10 Comments
+=============================*/
+@import "blocks/comments";
+
+/*=============================
+// #8.11 Loading
+=============================*/
+@import "blocks/loading";
+
+/*=============================
+// #8.12 Browser
+=============================*/
+@import "blocks/browser";
+
+/*=============================
+// #8.13 About
+=============================*/
+@import "blocks/about";
+
+/*=============================
+// #8.14 Single
+=============================*/
+@import "blocks/single";
+
+/*=============================
+// #8.15 Contacts
+=============================*/
+@import "blocks/contacts";
+
+/*=============================
+// #8.16 404
+=============================*/
+@import "blocks/404";
+
+/*=============================
+// #8.17 Examples
+=============================*/
+@import "blocks/examples";
+
+/*=============================
+// #8.18 FAQ
+=============================*/
+@import "blocks/faq";
+
+/*=============================
+// #8.19 Clients
+=============================*/
+@import "blocks/clients";
+
+/*=============================
+// #8.20 Services
+=============================*/
+@import "blocks/services";
+
+/*=============================
+// #8.21 Portfolio
+=============================*/
+@import "blocks/portfolio";
+
+/*=============================
+// #8.22 Masonry gallery
+=============================*/
+@import "blocks/masonry-gallery";
+
+/*=================================================
+// #9 Animate
+=================================================*/
+@import "../../../node_modules/animate.css/animate";
+
+/*=================================================
+// #10 Slider
+=================================================*/
+@import "../../../node_modules/swiper/swiper";
+
+//=================================================
+// DEV
+//=================================================
+//body {
+//    background-image: url(../img/bg/dev.png);
+//    background-repeat: no-repeat;
+//    background-position: center;
+//}
+
+@media #{$media_xl} {
+  .login-page-image-wrapper {
+    text-align: center;
+  }
+}
+
+a.underline {
+  text-decoration: underline;
+}
+
+@keyframes cursor {
+  50% {
+    opacity: 0;
+  }
+}
+
+.Typewriter__cursor {
+  font-size: 170%;
+  font-weight: 1000;
+  position: relative;
+  bottom: 4px;
+  font-family: 'Source Code Pro Black';
+  line-height: 10px;
+}
+
+@keyframes redThingAnimation {
+  19% {
+    transform: scale(400%);
+  }
+
+  60% {
+    transform: scale(3000%);
+  }
+
+  70% {
+    background-color: red;
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(3000%);
+  }
+}
+
+.red-thing {
+  &.scaled {
+    transform: scale(200%)
+  }
+
+  -webkit-animation: redThingAnimation 7s 1 ease;
+  animation: redThingAnimation 7s 1 ease;
+}
+
+.red-thing-1 {
+  background-color: red;
+  opacity: .7;
+  position: absolute;
+  top: 13em;
+  right: 3em;
+  width: 5em;
+  height: 5em;
+}
+
+.red-thing-2 {
+  background-color: red;
+  opacity: .7;
+  position: absolute;
+  bottom: 2em;
+  right: 4em;
+  width: 12em;
+  height: 16em;
+}
+
+.red-thing-3 {
+  background-color: red;
+  opacity: .7;
+  position: absolute;
+  bottom: 13em;
+  right: 15em;
+  width: 3em;
+  height: 12em;
+}
+
+.red-thing-4 {
+  background-color: red;
+  opacity: .7;
+  position: absolute;
+  top: 11em;
+  left: 8em;
+  width: 5em;
+  height: 11em;
+}
+
+.red-thing-5 {
+  background-color: red;
+  opacity: .7;
+  position: absolute;
+  bottom: 22em;
+  left: 1em;
+  width: 2.6em;
+  height: 27em;
+}
+
+.yellow-thing-1 {
+  background-color: yellow;
+  opacity: .5;
+  position: absolute;
+  top: 5em;
+  left: 13em;
+  width: 5em;
+  height: 2em;
+}
+
+.zHr {
+  margin-left: 30px;
+  line-height: 24px;
+}
+
+.jU1 {
+  color: red;
+}
+
+.jBA {
+  color: red;
+  line-height: 24px;
+}
+
+.oII {
+  line-height: 38px;
+}
+
+.TrZ {
+  color: #E3FF37;
+  line-height: 24px;
+}
+
+.HjA {
+  line-height: 24px;
+}
+
+.HjP {
+  line-height: 32px;
+  font-size: 24px;
+}
+
+// @keyframes glitch {
+//   0% {
+//     opacity: 0;
+//     color: #fff;
+//   }
+//   25% {
+//     opacity: 1;
+//   }
+//   40% {
+//     opacity: 0;
+//   }
+//   41% {
+//     opacity: 1;
+//   }
+//   75% {
+//     opacity: 0;
+//     color: #fff;
+//   }
+//   80% {
+//     color: red;
+//   }
+//   85% {
+//     color: #fff;
+//     opacity: 1;
+//   }
+//   90% {
+//     opacity: 0;
+//   }
+//   91% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 1;
+//   }
+// }
+
+@keyframes glitch {
+  0% {
+    opacity: 0;
+    color: #fff;
+  }
+  10% {
+    opacity: 1;
+  }
+  16% {
+    opacity: 0;
+  }
+  17% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+    color: #fff;
+  }
+  31% {
+    color: red;
+  }
+  32% {
+    color: #fff;
+    opacity: 1;
+  }
+  // 36% {
+  //   opacity: 0;
+  // }
+  // 37% {
+  //   opacity: 1;
+  // }
+  // 50% {
+  //   opacity: 1;
+  // }
+  // 65% {
+  //   opacity: 0;
+  // }
+  100% {
+    opacity: 1;
+    top: -24px;
+  }
+}
+
+.tTi {
+  letter-spacing: 12px;
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+  left: -11px;
+  top: -24px;
+
+  -webkit-animation: glitch 5s linear 1;
+  animation: glitch 5s linear 1;
+}
+
+.rPi {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.ttR {
+  line-height: 29px;
+}
+
+.zLr {
+  display: inline-block;
+  margin-top: 19px;
+  line-height: 40px;
+  position: absolute;
+  top: 82px;
+}
+
+#typewriter-wrapper {
+  padding-right: 0;
+  line-height: 29px;
+}
+
+.binary-wrapper {
+  transition: all 0.5s ease;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.hidden-cursor {
+  display: none;
+}
+
+.monospace-loader::after {
+  animation: changeLoader 200ms linear infinite alternate;
+  -webkit-animation: changeLoader 200ms linear infinite alternate;
+  content: '';
+  line-height: 29px;
+}
+
+@keyframes changeLoader {
+  0% {
+    content: "▚";
+  }
+  100% {
+    content: "▞";
+  }
+}
+
+.monospace-loader-2::after {
+  animation: changeLoader2 800ms linear infinite alternate;
+  -webkit-animation: changeLoader2 800ms linear infinite alternate;
+  content: '';
+  line-height: 29px;
+  font-size: 180%;
+  position: relative;
+  top: 4px;
+}
+
+@keyframes changeLoader2 {
+  0% {
+    content: "⠋";
+  }
+  9% {
+    content: "⠙";
+  }
+  18% {
+    content: "⠚";
+  }
+  27% {
+    content: "⠖";
+  }
+  36% {
+    content: "⠞";
+  }
+  45% {
+    content: "⠖";
+  }
+  54% {
+    content: "⠦";
+  }
+  63% {
+    content: "⠴";
+  }
+  72% {
+    content: "⠲";
+  }
+  81% {
+    content: "⠳";
+  }
+  90% {
+    content: "⠓";
+  }
+  100% {
+    content: "⠋";
+  }
+}
+
+.flip {
+  transform: rotate(180deg);
+  padding-top: 22px !important;
+  padding-bottom: 3.158rem !important;
+}
+
+@keyframes fadeFooter {
+  0%    { opacity: 0; }
+  50%   { opacity: 0; }
+  100%  { opacity: 1; }
+}
+
+@keyframes fadeFooterSlow {
+  0%    { opacity: 0; }
+  95%   { opacity: 0; }
+  100%  { opacity: 1; }
+}
+
+.fade-footer {
+  animation: fadeFooter 800ms cubic-bezier(0.25,0.1,0.25,1);
+}
+
+.fade-footer-slow {
+  animation: fadeFooterSlow 1600ms cubic-bezier(0.25,0.1,0.25,1);
+}
+
+@keyframes pulseFooter {
+  0%  { opacity: 0; }
+  50%  { opacity: 1; }
+  100%  { opacity: 0; }
+}
+
+.pulse-footer {
+  animation: pulseFooter 1400ms ease-in-out infinite;
+}
+
+@keyframes slideRight {
+  0%    { opacity: 1; transform: translateY(0); }
+  20%    { opacity: 0; transform: translateY(-130%); }
+  100%    { opacity: 0; transform: translate3d(-130%); }
+}
+
+.slide-right {
+  animation: slideRight 2000ms ease-out 1;
+}
+
+.login-red {
+  color: red;
+}
+
+.login-yellow {
+  color: yellow;
+}
+
+.triangles {
+  background-image: url("../img/rh/triangles.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.hombre-triangles {
+  background: linear-gradient(#000 55%, rgba(255,255,255,.5) 100%);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes fadeLogin {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeLogin2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-home-1 {
+  animation: fadeLogin 500ms ease-in-out 1;
+}
+
+.fade-home-2 {
+  animation: fadeLogin2 500ms ease-in-out 1;
+}
+
+.wrapper.bot-button {
+  @keyframes fadeBotButton {
+    0% {
+      opacity: 0;
+    }
+    70% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  -webkit-animation: fadeBotButton 2000ms ease-in-out 1;
+  animation: fadeBotButton 2000ms ease-in-out 1;
+}
+
+.shimmer-button {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  background: none;
+  min-height: 82px;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-744px) translateY(-300px) rotate(30deg);
+  }
+
+  100% {
+    transform: translateX(-350px) translateY(-300px) rotate(30deg);
+  }
+}
+
+.shimmer-button:active::before {
+  -webkit-animation: shimmer 2.2s ease-out 1;
+  animation: shimmer 2.2s ease-out 1;
+}
+
+.shimmer-button::before {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  transform: translateX(-744px) translateY(-300px) rotate(30deg);
+
+  z-index: -1;
+  background: rgba(255,255,255,.25);
+}
+
+.sys-console-2 {
+  .Typewriter {
+    overflow: hidden;
+  }
+}
+
+.form-footer .wrapper {
+  margin-bottom: 80.2px;
+}
+
+.step-2-button {
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  background: none;
+  min-height: 82px;
+}
+
+.generator-typewriter {
+  min-height: 64px;
+  .Typewriter__cursor {
+    line-height: 32px;
+  }
+}
+
+.generator-typewriter-2 {
+  min-height: 70px;
+  line-height: 32px;
+  .Typewriter__cursor {
+    line-height: 32px;
+  }
+}
+
+#typewriter-4 {
+  .Typewriter__cursor {
+    display: none;
+  }
+}
+
+.visible-cursor {
+  display: inline !important;
+}
+
+@keyframes botId {
+  0% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.bot-id {
+  span {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 12px;
+    color: #AFAFAF;
+    display: block;
+    margin-top: 12px;
+  }
+
+
+  -webkit-animation: botId 1.8s ease-in 1;
+  animation: botId 500ms ease-in 1;
+}

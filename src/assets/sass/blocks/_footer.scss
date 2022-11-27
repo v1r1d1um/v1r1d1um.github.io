@@ -1,0 +1,43 @@
+//=================================================
+// Footer
+//=================================================
+
+.site-footer {
+    background-color: $footer_background_color;
+
+    .wrapper {
+        bottom: 0;
+        position: absolute;
+        padding-bottom: 22px;
+        padding-top: $footer_padding_t;
+        width: 100%;
+
+        .footer {
+            .copyright {
+                @media #{$media_lg} {
+                    text-align: center;
+                }
+
+                .first-line {
+                    color: #fff;
+                }
+
+                .second-line {
+                    color: #AFAFAF;
+                }
+            }
+
+            @media #{$media_lg} {
+                .d-flex {
+                    > div {
+                        margin-bottom: $space_sm;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

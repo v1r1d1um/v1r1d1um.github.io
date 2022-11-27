@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Source Code Pro';
+  src: local('Source Code Pro'), local('Source-Code-Pro'),
+      url('SourceCodePro-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Code Pro Black';
+  src: local('Source Code Pro Black'), local('Source-Code-Pro-Black'),
+      url('SourceCodePro-Black.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}

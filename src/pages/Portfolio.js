@@ -618,10 +618,10 @@ const Portfolio = () => {
                             }}
                           />
                         </div>
-                        <div className="title spacer p-top-lg m-left-lg m-right-lg">
+                        <div className="title spacer p-top-sm m-left-xl m-right-xl">
                           <BotImg2Wrapper
                             style={{
-                              padding: "36px",
+                              padding: "12px",
                               border: "1px solid #fff",
                             }}
                           >

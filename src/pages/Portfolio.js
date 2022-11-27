@@ -801,7 +801,7 @@ const Portfolio = () => {
                 ) : null}
 
                 {currentStep === 1 || currentStep === 2 ? (
-                  <Attempts className="spacer p-top-xs">
+                  <Attempts style={{marginTop: '8px', marginBottom: '12px'}}>
                     {attemptsRemaining} attempt
                     {attemptsRemaining !== 1 ? "s" : ""} remaining
                   </Attempts>
@@ -809,8 +809,8 @@ const Portfolio = () => {
 
                 <div className="wrapper bot-button">
                   {currentStep === 2 ? (
-                    <div className="title spacer p-top-sm m-left-md m-right-md">
-                      <div className="bot-id">
+                    <div className="title spacer m-left-lg m-right-lg">
+                      <div className="bot-id spacer m-left-sm m-right-sm">
                         <BotImg
                           src={
                             availableTokens[

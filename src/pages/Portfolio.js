@@ -709,7 +709,7 @@ const Portfolio = () => {
                     <div
                       style={{
                         lineHeight: "29px",
-                        minHeight: "72px",
+                        minHeight: "58px",
                         display: "block",
                       }}
                     >
@@ -741,10 +741,12 @@ const Portfolio = () => {
                         }}
                       />
                     </div>
-                    <OrganicWrapper className="spacer m-left-md m-right-md">
-                      <Lottie animationData={organicLoader} />
-                    </OrganicWrapper>
-                    <div id="typewriter-4" className="spacer p-top-xs">
+                    <div className="spacer m-left-sm m-right-sm">
+                      <OrganicWrapper className="spacer m-left-lg m-right-lg">
+                        <Lottie animationData={organicLoader} />
+                      </OrganicWrapper>
+                    </div>
+                    <div id="typewriter-4">
                       <Typewriter
                         options={{
                           loop: false,
@@ -777,7 +779,7 @@ const Portfolio = () => {
                                 .getElementsByClassName("Typewriter__cursor")[1]
                                 .classList.remove("visible-cursor");
                             })
-                            .pauseFor(700)
+                            .pauseFor(600)
                             .callFunction(() => {
                               onDoneFinalTypewriter();
                             })
@@ -801,7 +803,7 @@ const Portfolio = () => {
                 ) : null}
 
                 {currentStep === 1 || currentStep === 2 ? (
-                  <Attempts style={{marginTop: '8px', marginBottom: '12px'}}>
+                  <Attempts style={{ marginTop: "8px", marginBottom: "12px" }}>
                     {attemptsRemaining} attempt
                     {attemptsRemaining !== 1 ? "s" : ""} remaining
                   </Attempts>
@@ -810,7 +812,7 @@ const Portfolio = () => {
                 <div className="wrapper bot-button">
                   {currentStep === 2 ? (
                     <div className="title spacer m-left-lg m-right-lg">
-                      <div className="bot-id spacer m-left-sm m-right-sm">
+                      <div className="bot-id">
                         <BotImg
                           src={
                             availableTokens[
@@ -847,7 +849,7 @@ const Portfolio = () => {
                         height="256"
                         style={{
                           width: "100%",
-                          height: "100%"
+                          height: "100%",
                         }}
                       ></svg>
                     </div>

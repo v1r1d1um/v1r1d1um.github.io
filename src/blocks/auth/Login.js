@@ -92,7 +92,7 @@ export const LoginComponent = (props) => {
               <p className="text after login-text-after">
                 <span className="login-red">ERROR: MATCH NOT FOUND</span>
                 <br />
-                <span>Please enter your benefit registration address.</span>
+                <span>Please enter your benefit RSVP email address.</span>
               </p>
             )) ||
               (login.stale && (

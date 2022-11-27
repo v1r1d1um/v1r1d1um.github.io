@@ -12,6 +12,10 @@ import { Auth } from "../api/auth";
 import { SystemFooter } from "../components/SystemFooter";
 import { TosFooter } from "../components/TosFooter";
 
+const FinalTypeWriter = styled(Typewriter)`
+  opacity: 1;
+`;
+
 const FormWrapper = styled.div`
   @keyframes fadeItt {
     0% {
@@ -337,6 +341,7 @@ const Portfolio = () => {
                 fontSize: "200%",
                 fontWeight: "1000",
                 transform: "scale(1, .8547)",
+                cursor: "pointer",
               }}
               onClick={handleHideCredits}
             >
@@ -400,6 +405,7 @@ const Portfolio = () => {
                 fontSize: "200%",
                 fontWeight: "1000",
                 transform: "scale(1, .8547)",
+                cursor: "pointer",
               }}
               onClick={handleHideTosOverlay}
             >
@@ -591,7 +597,10 @@ const Portfolio = () => {
                       </p>
                     ) : (
                       <>
-                        <div className="generator-typewriter-2">
+                        <div
+                          className="generator-typewriter-2"
+                          id="typewriter-4-wrapper"
+                        >
                           <Typewriter
                             id="typewriter-4"
                             options={{
@@ -713,7 +722,7 @@ const Portfolio = () => {
                         display: "block",
                       }}
                     >
-                      <Typewriter
+                      <FinalTypeWriter
                         id="typewriter-5"
                         options={{
                           loop: false,
@@ -759,7 +768,7 @@ const Portfolio = () => {
                             .pauseFor(4000)
                             .callFunction(() => {
                               document
-                                .getElementsByClassName("Typewriter__cursor")[1]
+                                .getElementsByClassName("Typewriter__cursor")[0]
                                 .classList.add("visible-cursor");
                             })
                             .pauseFor(1000)
@@ -776,7 +785,7 @@ const Portfolio = () => {
                             .pauseFor(1600)
                             .callFunction(() => {
                               document
-                                .getElementsByClassName("Typewriter__cursor")[1]
+                                .getElementsByClassName("Typewriter__cursor")[0]
                                 .classList.remove("visible-cursor");
                             })
                             .pauseFor(600)

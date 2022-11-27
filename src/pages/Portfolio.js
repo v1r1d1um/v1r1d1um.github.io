@@ -741,7 +741,7 @@ const Portfolio = () => {
                         }}
                       />
                     </div>
-                    <OrganicWrapper className="spacer p-top-xs m-left-md m-right-md">
+                    <OrganicWrapper className="spacer m-left-md m-right-md">
                       <Lottie animationData={organicLoader} />
                     </OrganicWrapper>
                     <div id="typewriter-4" className="spacer p-top-xs">
@@ -791,7 +791,6 @@ const Portfolio = () => {
                           display: "block",
                           lineHeight: "29px",
                           textDecoration: "underline",
-                          marginTop: "12px",
                         }}
                         onClick={handleShowCredits}
                       >
@@ -848,8 +847,7 @@ const Portfolio = () => {
                         height="256"
                         style={{
                           width: "100%",
-                          height: "100%",
-                          maxHeight: "70vh",
+                          height: "100%"
                         }}
                       ></svg>
                     </div>

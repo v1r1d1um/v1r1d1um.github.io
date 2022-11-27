@@ -87,7 +87,7 @@ export const LoginComponent = (props) => {
       </TypewriterWrapper>
       {showForm ? (
         <FormWrapper>
-          <section className="spacer p-top-xl">
+          <section className="spacer p-top-sm">
             {(error && (
               <p className="text after login-text-after">
                 <span className="login-red">ERROR: MATCH NOT FOUND</span>

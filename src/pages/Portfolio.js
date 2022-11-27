@@ -810,7 +810,7 @@ const Portfolio = () => {
 
                 <div className="wrapper bot-button">
                   {currentStep === 2 ? (
-                    <div className="title spacer p-top-lg m-left-md m-right-md">
+                    <div className="title spacer p-top-sm m-left-md m-right-md">
                       <div className="bot-id">
                         <BotImg
                           src={
@@ -823,36 +823,36 @@ const Portfolio = () => {
                         />
                         <span>
                           BOT ID:{" "}
-                          {
-                            availableTokens[
-                              availableTokens.length - attemptsRemaining - 1
-                            ].id
-                          }
+                          {availableTokens[
+                            availableTokens.length - attemptsRemaining - 1
+                          ]?.id?.slice(-8)}
                         </span>
                       </div>
                     </div>
                   ) : null}
 
                   {showWave ? (
-                    <div className="title spacer p-top-lg">
+                    <div className="title spacer p-top-sm">
                       <Lottie animationData={waveLoader} />
                     </div>
                   ) : showConfetti ? (
-                    <div className="title spacer p-top-lg">
+                    <div className="title spacer p-top-sm">
                       <Lottie animationData={explodeLoader} />
                     </div>
                   ) : (
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 256 256"
-                      width="256"
-                      height="256"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        maxHeight: "70vh",
-                      }}
-                    ></svg>
+                    <div className="title spacer p-top-sm">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 256 256"
+                        width="256"
+                        height="256"
+                        style={{
+                          width: "100%",
+                          height: "100%",
+                          maxHeight: "70vh",
+                        }}
+                      ></svg>
+                    </div>
                   )}
                 </div>
               </div>
@@ -862,7 +862,7 @@ const Portfolio = () => {
       </main>
       {!showTosOverlay ? (
         <footer id="footer-form" className="site-footer form-footer">
-          <div className="wrapper">
+          <div className="wrapper" style={{ paddingBottom: "0" }}>
             <div className="footer">
               <div className="align-self-center">
                 {error ? (
@@ -906,7 +906,7 @@ const Portfolio = () => {
                             setCurrentStep(3);
                           }}
                           type="submit"
-                          style={{ marginTop: "2em" }}
+                          style={{ marginTop: ".5em" }}
                           className="btn btn-outline-primary text-uppercase step-2-button"
                         >
                           Back to wallet
@@ -991,7 +991,7 @@ const Portfolio = () => {
                               setCurrentStep(1);
                             }}
                             type="submit"
-                            style={{ marginTop: "2em" }}
+                            style={{ marginTop: ".5em" }}
                             className="btn btn-outline-primary text-uppercase step-2-button"
                           >
                             Regenerate
